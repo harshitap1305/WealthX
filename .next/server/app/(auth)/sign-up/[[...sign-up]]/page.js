@@ -1,0 +1,14 @@
+const CHUNK_PUBLIC_PATH = "server/app/(auth)/sign-up/[[...sign-up]]/page.js";
+const runtime = require("../../../../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_101e1c._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__adba9d._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_9c1474._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__ecbbee._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__a917f3._.css");
+runtime.loadChunk("server/chunks/ssr/node_modules_62535b._.js");
+runtime.loadChunk("server/chunks/ssr/app_not-found_jsx_f0f4a6._.js");
+runtime.loadChunk("server/chunks/ssr/app_(auth)_layout_41010a.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_not-found-error_b76de5.js");
+runtime.loadChunk("server/chunks/ssr/_96e8f0._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/(auth)/sign-up/[[...sign-up]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/(auth)/sign-up/[[...sign-up]]/page { MODULE_0 => \"[project]/app/layout.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_1 => \"[project]/app/not-found.jsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/app/(auth)/layout.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/app/(auth)/sign-up/[[...sign-up]]/page.jsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
