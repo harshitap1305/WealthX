@@ -1,0 +1,130 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_c58c5e._.js",
+        "server/edge/chunks/node_modules_@bufbuild_protobuf_dist_esm_354f38._.js",
+        "server/edge/chunks/node_modules_@arcjet_protocol_9014fd._.js",
+        "server/edge/chunks/node_modules_@connectrpc_connect_dist_esm_2b2029._.js",
+        "server/edge/chunks/node_modules_@clerk_backend_dist_a21c49._.js",
+        "server/edge/chunks/node_modules_348cba._.js",
+        "server/edge/chunks/[root of the server]__bfe987._.js",
+        "server/edge/chunks/edge-wrapper_b35dc1.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*){(\\\\.json)}?",
+          "originalSource": "/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/(api|trpc)(.*){(\\\\.json)}?",
+          "originalSource": "/(api|trpc)(.*)"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_dd92d_modules__arcjet_analyze_wasm_wasm_arcjet_analyze_js_req_component_core_325b98",
+          "filePath": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core_325b98.wasm"
+        },
+        {
+          "name": "wasm_dd92d_modules__arcjet_analyze_wasm_wasm_arcjet_analyze_js_req_component_core2_325b98",
+          "filePath": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core2_325b98.wasm"
+        },
+        {
+          "name": "wasm_dd92d_modules__arcjet_analyze_wasm_wasm_arcjet_analyze_js_req_component_core3_325b98",
+          "filePath": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core3_325b98.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core_325b98.wasm",
+          "filePath": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core_325b98.wasm"
+        },
+        {
+          "name": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core2_325b98.wasm",
+          "filePath": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core2_325b98.wasm"
+        },
+        {
+          "name": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core3_325b98.wasm",
+          "filePath": "server/edge/chunks/dd92d_modules_@arcjet_analyze-wasm_wasm_arcjet_analyze_js_req_component_core3_325b98.wasm"
+        },
+        {
+          "name": "server/edge/chunks/_c58c5e._.js.map",
+          "filePath": "server/edge/chunks/_c58c5e._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/_c58c5e._.js",
+          "filePath": "server/edge/chunks/_c58c5e._.js"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@bufbuild_protobuf_dist_esm_354f38._.js.map",
+          "filePath": "server/edge/chunks/node_modules_@bufbuild_protobuf_dist_esm_354f38._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@bufbuild_protobuf_dist_esm_354f38._.js",
+          "filePath": "server/edge/chunks/node_modules_@bufbuild_protobuf_dist_esm_354f38._.js"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@arcjet_protocol_9014fd._.js.map",
+          "filePath": "server/edge/chunks/node_modules_@arcjet_protocol_9014fd._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@arcjet_protocol_9014fd._.js",
+          "filePath": "server/edge/chunks/node_modules_@arcjet_protocol_9014fd._.js"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@connectrpc_connect_dist_esm_2b2029._.js.map",
+          "filePath": "server/edge/chunks/node_modules_@connectrpc_connect_dist_esm_2b2029._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@connectrpc_connect_dist_esm_2b2029._.js",
+          "filePath": "server/edge/chunks/node_modules_@connectrpc_connect_dist_esm_2b2029._.js"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@clerk_backend_dist_a21c49._.js.map",
+          "filePath": "server/edge/chunks/node_modules_@clerk_backend_dist_a21c49._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_@clerk_backend_dist_a21c49._.js",
+          "filePath": "server/edge/chunks/node_modules_@clerk_backend_dist_a21c49._.js"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_348cba._.js.map",
+          "filePath": "server/edge/chunks/node_modules_348cba._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/node_modules_348cba._.js",
+          "filePath": "server/edge/chunks/node_modules_348cba._.js"
+        },
+        {
+          "name": "server/edge/chunks/[root of the server]__bfe987._.js.map",
+          "filePath": "server/edge/chunks/[root of the server]__bfe987._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/[root of the server]__bfe987._.js",
+          "filePath": "server/edge/chunks/[root of the server]__bfe987._.js"
+        },
+        {
+          "name": "server/edge/chunks/edge-wrapper_b35dc1.js.map",
+          "filePath": "server/edge/chunks/edge-wrapper_b35dc1.js.map"
+        },
+        {
+          "name": "server/edge/chunks/edge-wrapper_b35dc1.js",
+          "filePath": "server/edge/chunks/edge-wrapper_b35dc1.js"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "gPPpM9AYE55YYfnttL8Cctk0RJGoT5sI9BI+zafYNzk=",
+        "__NEXT_PREVIEW_MODE_ID": "9ee852174ef7ef4e3cde6d22416230dd",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "60ac70092cb88f5a1ce31fc1cf260a9418e24829e6e32915a91371e30dc166b7",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "afc36c2a77227076ae8c4cd076633ee1067ea9ac40c3b1b2394637e9018e2ba1"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
