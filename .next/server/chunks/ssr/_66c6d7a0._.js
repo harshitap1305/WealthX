@@ -146,11 +146,7 @@ const featuresData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 22,
-=======
-            lineNumber: 42,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -160,11 +156,7 @@ const featuresData = [
             children: "Smart Receipt Scanner"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 23,
-=======
-            lineNumber: 43,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -174,40 +166,7 @@ const featuresData = [
             children: "Extract data automatically from receipts using advanced AI technology"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 25,
-=======
-            lineNumber: 45,
-            columnNumber: 7
-        }, this)
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$pie$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__PieChart$3e$__["PieChart"], {
-            className: "h-8 w-8 text-[#e5dbff]"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 51,
-            columnNumber: 11
-        }, this),
-        title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: " Calendar"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 52,
-            columnNumber: 12
-        }, this),
-        description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "View expenses and insights by clicking on a date/month."
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 54,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 7
         }, this)
     },
@@ -305,11 +264,7 @@ const howItWorksData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 64,
-=======
-            lineNumber: 93,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -319,11 +274,7 @@ const howItWorksData = [
             children: "1. Create Your Account"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 65,
-=======
-            lineNumber: 94,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -333,11 +284,7 @@ const howItWorksData = [
             children: "Get started in minutes with our simple and secure sign-up process"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 67,
-=======
-            lineNumber: 96,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 7
         }, this)
     },
@@ -346,11 +293,7 @@ const howItWorksData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 73,
-=======
-            lineNumber: 102,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -360,11 +303,7 @@ const howItWorksData = [
             children: "2. Track Your Spending"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 74,
-=======
-            lineNumber: 103,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -374,11 +313,7 @@ const howItWorksData = [
             children: "Automatically categorize and track your transactions in real-time"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 76,
-=======
-            lineNumber: 105,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 7
         }, this)
     },
@@ -387,11 +322,7 @@ const howItWorksData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 82,
-=======
-            lineNumber: 111,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -401,11 +332,7 @@ const howItWorksData = [
             children: "3. Get Insights"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 83,
-=======
-            lineNumber: 112,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -415,11 +342,7 @@ const howItWorksData = [
             children: "Receive AI-powered insights and recommendations to optimize your finances"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-<<<<<<< HEAD
             lineNumber: 85,
-=======
-            lineNumber: 114,
->>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
             columnNumber: 7
         }, this)
     }
