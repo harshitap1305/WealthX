@@ -5,10 +5,15 @@
         "app/(main)/dashboard/page": {
           "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/actions/account.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
         }
       },
       "layer": {
-        "app/(main)/dashboard/page": "action-browser"
+        "app/(main)/dashboard/page": "action-browser",
+        "app/page": "action-browser"
       }
     },
     "7faab20ab0b12c0c10101f0bb2b7f558fd117baec3": {
@@ -16,10 +21,15 @@
         "app/(main)/dashboard/page": {
           "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/actions/account.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
         }
       },
       "layer": {
-        "app/(main)/dashboard/page": "action-browser"
+        "app/(main)/dashboard/page": "action-browser",
+        "app/page": "action-browser"
       }
     },
     "7fd66ccfe9f6b554f3896131af93a987139686f84a": {
@@ -27,10 +37,15 @@
         "app/(main)/dashboard/page": {
           "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/actions/account.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
         }
       },
       "layer": {
-        "app/(main)/dashboard/page": "action-browser"
+        "app/(main)/dashboard/page": "action-browser",
+        "app/page": "action-browser"
       }
     },
     "7fee606e9632dfd31c8cb7bd225ba44f078693e3ca": {
@@ -38,10 +53,15 @@
         "app/(main)/dashboard/page": {
           "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/actions/account.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
         }
       },
       "layer": {
-        "app/(main)/dashboard/page": "action-browser"
+        "app/(main)/dashboard/page": "action-browser",
+        "app/page": "action-browser"
       }
     },
     "00a819486bf73423e9c63f80b7d6c92d950dd8a233": {
