@@ -10,102 +10,110 @@ import {
 // Stats Data
 export const statsData = [
   {
-    value: "50K+",
-    label: "Active Users",
+    value: "10K+",
+    label: <span style={{ color: "#e5dbff" }}>Active Users</span>,
   },
   {
-    value: "$2B+",
-    label: "Transactions Tracked",
+    value: "$2M+",
+    label: <span style={{ color: "#e5dbff" }}>Transactions Tracked</span>,
   },
   {
     value: "99.9%",
-    label: "Uptime",
+    label: <span style={{ color: "#e5dbff" }}>Uptime</span>,
   },
   {
-    value: "4.9/5",
-    label: "User Rating",
+    value: "4.5/5",
+    label: <span style={{ color: "#e5dbff" }}>User Rating</span>,
   },
 ];
 
 // Features Data
 export const featuresData = [
   {
-    icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "Advanced Analytics",
-    description:
-      "Get detailed insights into your spending patterns with AI-powered analytics",
+    icon: <BarChart3 className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>Advanced Analytics</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Get detailed insights into your spending patterns with AI-powered
+        analytics
+      </span>
+    ),
   },
   {
-    icon: <Receipt className="h-8 w-8 text-blue-600" />,
-    title: "Smart Receipt Scanner",
-    description:
-      "Extract data automatically from receipts using advanced AI technology",
+    icon: <Receipt className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>Smart Receipt Scanner</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Extract data automatically from receipts using advanced AI technology
+      </span>
+    ),
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "Budget Planning",
-    description: "Create and manage budgets with intelligent recommendations",
+    icon: <PieChart className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>Budget Planning</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Create and manage budgets with intelligent recommendations
+      </span>
+    ),
   },
   {
-    icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Account Support",
-    description: "Manage multiple accounts and credit cards in one place",
+    icon: <CreditCard className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>Multi-Account Support</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Manage multiple accounts and credit cards in one place
+      </span>
+    ),
   },
   {
-    icon: <Globe className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
+    icon: <Globe className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>Multi-Currency</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Support for multiple currencies with real-time conversion
+      </span>
+    ),
   },
   {
-    icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    icon: <Zap className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>Automated Insights</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Get automated financial insights and recommendations
+      </span>
+    ),
   },
 ];
 
 // How It Works Data
 export const howItWorksData = [
   {
-    icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "1. Create Your Account",
-    description:
-      "Get started in minutes with our simple and secure sign-up process",
+    icon: <CreditCard className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>1. Create Your Account</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Get started in minutes with our simple and secure sign-up process
+      </span>
+    ),
   },
   {
-    icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "2. Track Your Spending",
-    description:
-      "Automatically categorize and track your transactions in real-time",
+    icon: <BarChart3 className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>2. Track Your Spending</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Automatically categorize and track your transactions in real-time
+      </span>
+    ),
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "3. Get Insights",
-    description:
-      "Receive AI-powered insights and recommendations to optimize your finances",
-  },
-];
-
-// Testimonials Data
-export const testimonialsData = [
-  {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
-    quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
-  },
-  {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
-    quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
-    quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+    icon: <PieChart className="h-8 w-8 text-[#e5dbff]" />,
+    title: <span style={{ color: "#e5dbff" }}>3. Get Insights</span>,
+    description: (
+      <span style={{ color: "#e5dbff" }}>
+        Receive AI-powered insights and recommendations to optimize your
+        finances
+      </span>
+    ),
   },
 ];

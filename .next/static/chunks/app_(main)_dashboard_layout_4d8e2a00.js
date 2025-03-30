@@ -15,7 +15,8 @@
     "static/chunks/node_modules_@radix-ui_81be8a52._.js",
     "static/chunks/node_modules_@floating-ui_9ec1fa39._.js",
     "static/chunks/node_modules_@fullcalendar_4dff6298._.js",
-    "static/chunks/node_modules_7c842f33._.js"
+    "static/chunks/node_modules_7c842f33._.js",
+    "static/chunks/app_(main)_dashboard_Calendar_92129421.css"
   ],
   "source": "dynamic"
 });

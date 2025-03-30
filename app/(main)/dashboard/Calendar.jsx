@@ -5,6 +5,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import Plot from "react-plotly.js";
+import './Calendar.css'; 
 
 function Calendar() {
   const [selectedDate, setSelectedDate] = useState(null);
