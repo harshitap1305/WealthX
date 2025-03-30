@@ -100,8 +100,7 @@ var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "featuresData": (()=>featuresData),
-    "howItWorksData": (()=>howItWorksData),
-    "statsData": (()=>statsData)
+    "howItWorksData": (()=>howItWorksData)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chart-column.js [app-rsc] (ecmascript) <export default as BarChart3>");
@@ -112,87 +111,33 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/zap.js [app-rsc] (ecmascript) <export default as Zap>");
 ;
 ;
-const statsData = [
-    {
-        value: "10K+",
-        label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "Active Users"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 14,
-            columnNumber: 12
-        }, this)
-    },
-    {
-        value: "$2M+",
-        label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "Transactions Tracked"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 18,
-            columnNumber: 12
-        }, this)
-    },
-    {
-        value: "99.9%",
-        label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "Uptime"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 22,
-            columnNumber: 12
-        }, this)
-    },
-    {
-        value: "4.5/5",
-        label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "User Rating"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 26,
-            columnNumber: 12
-        }, this)
-    }
-];
 const featuresData = [
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__["BarChart3"], {
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 33,
+            lineNumber: 13,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             style: {
                 color: "#e5dbff"
             },
-            children: "Advanced Analytics"
+            children: "Graphical Analytical Section"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 34,
+            lineNumber: 14,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             style: {
                 color: "#e5dbff"
             },
-            children: "Get detailed insights into your spending patterns with AI-powered analytics"
+            children: "Charts & Graphs: Analyze expenses and savings visually with interactive charts."
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 36,
+            lineNumber: 16,
             columnNumber: 7
         }, this)
     },
@@ -201,7 +146,7 @@ const featuresData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 43,
+            lineNumber: 22,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -211,7 +156,7 @@ const featuresData = [
             children: "Smart Receipt Scanner"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 44,
+            lineNumber: 23,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -221,36 +166,7 @@ const featuresData = [
             children: "Extract data automatically from receipts using advanced AI technology"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 46,
-            columnNumber: 7
-        }, this)
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$pie$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__PieChart$3e$__["PieChart"], {
-            className: "h-8 w-8 text-[#e5dbff]"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 52,
-            columnNumber: 11
-        }, this),
-        title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "Budget Planning"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 53,
-            columnNumber: 12
-        }, this),
-        description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            style: {
-                color: "#e5dbff"
-            },
-            children: "Create and manage budgets with intelligent recommendations"
-        }, void 0, false, {
-            fileName: "[project]/data/landing.js",
-            lineNumber: 55,
+            lineNumber: 25,
             columnNumber: 7
         }, this)
     },
@@ -259,7 +175,7 @@ const featuresData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 61,
+            lineNumber: 32,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -269,7 +185,7 @@ const featuresData = [
             children: "Multi-Account Support"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 62,
+            lineNumber: 33,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -279,7 +195,7 @@ const featuresData = [
             children: "Manage multiple accounts and credit cards in one place"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 64,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     },
@@ -288,27 +204,27 @@ const featuresData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 70,
+            lineNumber: 41,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             style: {
                 color: "#e5dbff"
             },
-            children: "Multi-Currency"
+            children: " Transaction categorization"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 71,
+            lineNumber: 42,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             style: {
                 color: "#e5dbff"
             },
-            children: "Support for multiple currencies with real-time conversion"
+            children: "Users can manually categorize transactions."
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 73,
+            lineNumber: 44,
             columnNumber: 7
         }, this)
     },
@@ -317,27 +233,27 @@ const featuresData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 79,
+            lineNumber: 50,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             style: {
                 color: "#e5dbff"
             },
-            children: "Automated Insights"
+            children: " AI-Powered Query System"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 80,
+            lineNumber: 51,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             style: {
                 color: "#e5dbff"
             },
-            children: "Get automated financial insights and recommendations"
+            children: "AI model answers queries like “Can I afford a ₹50 purchase?”"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 82,
+            lineNumber: 53,
             columnNumber: 7
         }, this)
     }
@@ -348,7 +264,7 @@ const howItWorksData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 92,
+            lineNumber: 64,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -358,7 +274,7 @@ const howItWorksData = [
             children: "1. Create Your Account"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 93,
+            lineNumber: 65,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -368,7 +284,7 @@ const howItWorksData = [
             children: "Get started in minutes with our simple and secure sign-up process"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 95,
+            lineNumber: 67,
             columnNumber: 7
         }, this)
     },
@@ -377,7 +293,7 @@ const howItWorksData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 101,
+            lineNumber: 73,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -387,7 +303,7 @@ const howItWorksData = [
             children: "2. Track Your Spending"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 102,
+            lineNumber: 74,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -397,7 +313,7 @@ const howItWorksData = [
             children: "Automatically categorize and track your transactions in real-time"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 104,
+            lineNumber: 76,
             columnNumber: 7
         }, this)
     },
@@ -406,7 +322,7 @@ const howItWorksData = [
             className: "h-8 w-8 text-[#e5dbff]"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 110,
+            lineNumber: 82,
             columnNumber: 11
         }, this),
         title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -416,7 +332,7 @@ const howItWorksData = [
             children: "3. Get Insights"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 111,
+            lineNumber: 83,
             columnNumber: 12
         }, this),
         description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -426,7 +342,7 @@ const howItWorksData = [
             children: "Receive AI-powered insights and recommendations to optimize your finances"
         }, void 0, false, {
             fileName: "[project]/data/landing.js",
-            lineNumber: 113,
+            lineNumber: 85,
             columnNumber: 7
         }, this)
     }
@@ -507,54 +423,6 @@ const LandingPage = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20",
-                style: {
-                    backgroundColor: "#0d021f"
-                },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "container mx-auto px-4",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-2 md:grid-cols-4 gap-8 text-white",
-                        children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$landing$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["statsData"].map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-4xl font-bold mb-2",
-                                        children: stat.value
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.js",
-                                        lineNumber: 25,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: stat.label
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.js",
-                                        lineNumber: 26,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/app/page.js",
-                                lineNumber: 24,
-                                columnNumber: 15
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.js",
-                        lineNumber: 22,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/app/page.js",
-                    lineNumber: 21,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/page.js",
-                lineNumber: 20,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "features",
                 className: "py-20 bg-[#0d021f]",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -565,7 +433,7 @@ const LandingPage = ()=>{
                             children: "Everything you need to manage your finances"
                         }, void 0, false, {
                             fileName: "[project]/app/page.js",
-                            lineNumber: 37,
+                            lineNumber: 24,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -580,7 +448,7 @@ const LandingPage = ()=>{
                                                 children: feature.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.js",
-                                                lineNumber: 48,
+                                                lineNumber: 35,
                                                 columnNumber: 13
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -588,7 +456,7 @@ const LandingPage = ()=>{
                                                 children: feature.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.js",
-                                                lineNumber: 49,
+                                                lineNumber: 36,
                                                 columnNumber: 13
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -596,34 +464,34 @@ const LandingPage = ()=>{
                                                 children: feature.description
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.js",
-                                                lineNumber: 50,
+                                                lineNumber: 37,
                                                 columnNumber: 13
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.js",
-                                        lineNumber: 47,
+                                        lineNumber: 34,
                                         columnNumber: 11
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/app/page.js",
-                                    lineNumber: 42,
+                                    lineNumber: 29,
                                     columnNumber: 9
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/page.js",
-                            lineNumber: 40,
+                            lineNumber: 27,
                             columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.js",
-                    lineNumber: 36,
+                    lineNumber: 23,
                     columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 35,
+                lineNumber: 22,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -639,7 +507,7 @@ const LandingPage = ()=>{
                             children: "How It Works"
                         }, void 0, false, {
                             fileName: "[project]/app/page.js",
-                            lineNumber: 62,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -652,7 +520,7 @@ const LandingPage = ()=>{
                                             children: step.icon
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.js",
-                                            lineNumber: 66,
+                                            lineNumber: 53,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -660,36 +528,36 @@ const LandingPage = ()=>{
                                             children: step.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.js",
-                                            lineNumber: 69,
+                                            lineNumber: 56,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: step.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.js",
-                                            lineNumber: 70,
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/app/page.js",
-                                    lineNumber: 65,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/page.js",
-                            lineNumber: 63,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.js",
-                    lineNumber: 61,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 60,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -708,7 +576,7 @@ const LandingPage = ()=>{
                             children: "Take Charge of Your Financial Future Today!"
                         }, void 0, false, {
                             fileName: "[project]/app/page.js",
-                            lineNumber: 81,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -719,18 +587,18 @@ const LandingPage = ()=>{
                             children: "Join thousands who are taking control of their finances intelligently with WealthX."
                         }, void 0, false, {
                             fileName: "[project]/app/page.js",
-                            lineNumber: 84,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.js",
-                    lineNumber: 80,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 79,
+                lineNumber: 66,
                 columnNumber: 7
             }, this)
         ]

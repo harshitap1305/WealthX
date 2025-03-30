@@ -5,7 +5,7 @@ import Image from "next/image";
 import {
   featuresData,
   howItWorksData,
-  statsData
+  
 } from "@/data/landing";
 import HeroSection from "@/components/hero";
 import Link from "next/link";
@@ -16,19 +16,6 @@ const LandingPage = () => {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Stats Section */}
-      <section className="py-20" style={{ backgroundColor: "#0d021f" }}>
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-white">
-            {statsData.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl font-bold mb-2">{stat.value}</div>
-                <div>{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Features Section */}
      

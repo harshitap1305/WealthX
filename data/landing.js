@@ -7,26 +7,6 @@ import {
   Zap,
 } from "lucide-react";
 
-// Stats Data
-export const statsData = [
-  {
-    value: "10K+",
-    label: <span style={{ color: "#e5dbff" }}>Active Users</span>,
-  },
-  {
-    value: "$2M+",
-    label: <span style={{ color: "#e5dbff" }}>Transactions Tracked</span>,
-  },
-  {
-    value: "99.9%",
-    label: <span style={{ color: "#e5dbff" }}>Uptime</span>,
-  },
-  {
-    value: "4.5/5",
-    label: <span style={{ color: "#e5dbff" }}>User Rating</span>,
-  },
-];
-
 // Features Data
 export const featuresData = [
   {
@@ -47,16 +27,7 @@ export const featuresData = [
       </span>
     ),
   },
-  {
-    icon: <PieChart className="h-8 w-8 text-[#e5dbff]" />,
-    title: <span style={{ color: "#e5dbff" }}> Calendar</span>,
-    description: (
-      <span style={{ color: "#e5dbff" }}>
-         View expenses and insights by clicking on a
-         date/month.
-      </span>
-    ),
-  },
+  
   {
     icon: <CreditCard className="h-8 w-8 text-[#e5dbff]" />,
     title: <span style={{ color: "#e5dbff" }}>Multi-Account Support</span>,

@@ -10,22 +10,25 @@ const HeroSection = () => {
 
   useEffect(() => {
     const imageElement = imageRef.current;
-
+  
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const scrollThreshold = 100;
-
-      if (scrollPosition > scrollThreshold) {
-        imageElement.classList.add("scrolled");
-      } else {
-        imageElement.classList.remove("scrolled");
+  
+      if (imageElement) {
+        const opacity = Math.max(1 - scrollPosition / 500, 0.8); // Gradual fade
+        const scale = Math.max(1 - scrollPosition / 2000, 0.95); // Slight shrink
+  
+        imageElement.style.transition = "opacity 0.5s ease-out, transform 0.5s ease-out";
+        imageElement.style.opacity = opacity;
+        imageElement.style.transform = `scale(${scale})`;
       }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  
   return (
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
@@ -38,10 +41,10 @@ const HeroSection = () => {
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
             <Image
-              src="/banner.jpeg"
-              width={1280}
-              height={720}
-              alt="Dashboard Preview"
+              src="/bannerr.png"
+              width={920}
+              height={620}
+              alt="Dashboard"
               className="rounded-lg shadow-2xl border mx-auto"
               priority
             />

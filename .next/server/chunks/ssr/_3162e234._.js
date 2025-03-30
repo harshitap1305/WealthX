@@ -102,10 +102,12 @@ const HeroSection = ()=>{
         const handleScroll = ()=>{
             const scrollPosition = window.scrollY;
             const scrollThreshold = 100;
-            if (scrollPosition > scrollThreshold) {
-                imageElement.classList.add("scrolled");
-            } else {
-                imageElement.classList.remove("scrolled");
+            if (imageElement) {
+                const opacity = Math.max(1 - scrollPosition / 500, 0.8); // Gradual fade
+                const scale = Math.max(1 - scrollPosition / 2000, 0.95); // Slight shrink
+                imageElement.style.transition = "opacity 0.5s ease-out, transform 0.5s ease-out";
+                imageElement.style.opacity = opacity;
+                imageElement.style.transform = `scale(${scale})`;
             }
         };
         window.addEventListener("scroll", handleScroll);
@@ -122,14 +124,14 @@ const HeroSection = ()=>{
                         "Smart Finance, ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/components/hero.jsx",
-                            lineNumber: 33,
+                            lineNumber: 36,
                             columnNumber: 24
                         }, this),
                         "Smarter Decisions"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/hero.jsx",
-                    lineNumber: 32,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -137,7 +139,7 @@ const HeroSection = ()=>{
                     children: "An intelligent finance platform that tracks, analyzes, and optimizes your spending with real-time AI-driven insights."
                 }, void 0, false, {
                     fileName: "[project]/components/hero.jsx",
-                    lineNumber: 35,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -146,36 +148,36 @@ const HeroSection = ()=>{
                         ref: imageRef,
                         className: "hero-image",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/banner.jpeg",
-                            width: 1280,
-                            height: 720,
-                            alt: "Dashboard Preview",
+                            src: "/bannerr.png",
+                            width: 920,
+                            height: 620,
+                            alt: "Dashboard",
                             className: "rounded-lg shadow-2xl border mx-auto",
                             priority: true
                         }, void 0, false, {
                             fileName: "[project]/components/hero.jsx",
-                            lineNumber: 40,
+                            lineNumber: 43,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/hero.jsx",
-                        lineNumber: 39,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.jsx",
-                    lineNumber: 38,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/hero.jsx",
-            lineNumber: 31,
+            lineNumber: 34,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/hero.jsx",
-        lineNumber: 30,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 };

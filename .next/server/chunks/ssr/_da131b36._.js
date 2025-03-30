@@ -1940,7 +1940,7 @@ function Calendar() {
                     center: "title",
                     end: "dayGridMonth,timeGridWeek,timeGridDay"
                 },
-                height: "70vh",
+                height: "35vh",
                 dateClick: handleDateClick
             }, void 0, false, {
                 fileName: "[project]/app/(main)/dashboard/Calendar.jsx",

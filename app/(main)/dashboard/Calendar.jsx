@@ -67,7 +67,7 @@ function Calendar() {
           center: "title",
           end: "dayGridMonth,timeGridWeek,timeGridDay",
         }}
-        height="70vh"
+        height="20vh"
         dateClick={handleDateClick}
       />
       {chartData && <Plot data={chartData.data} layout={chartData.layout} />}
