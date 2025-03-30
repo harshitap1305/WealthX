@@ -866,6 +866,7 @@ function CreateAccountDrawer({ children }) {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DrawerHeader"], {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$drawer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DrawerTitle"], {
+                            className: "text-[#4a2c7f]",
                             children: "Create New Account"
                         }, void 0, false, {
                             fileName: "[project]/components/create-account-drawer.jsx",
@@ -888,7 +889,7 @@ function CreateAccountDrawer({ children }) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             htmlFor: "name",
-                                            className: "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+                                            className: "text-sm font-medium text-[#3e206a]",
                                             children: "Account Name"
                                         }, void 0, false, {
                                             fileName: "[project]/components/create-account-drawer.jsx",
@@ -923,7 +924,7 @@ function CreateAccountDrawer({ children }) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             htmlFor: "type",
-                                            className: "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+                                            className: "text-sm font-medium text-[#3e206a]",
                                             children: "Account Type"
                                         }, void 0, false, {
                                             fileName: "[project]/components/create-account-drawer.jsx",
@@ -997,7 +998,7 @@ function CreateAccountDrawer({ children }) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             htmlFor: "balance",
-                                            className: "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+                                            className: "text-sm font-medium text-[#3e206a]",
                                             children: "Initial Balance"
                                         }, void 0, false, {
                                             fileName: "[project]/components/create-account-drawer.jsx",
@@ -1037,7 +1038,7 @@ function CreateAccountDrawer({ children }) {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     htmlFor: "isDefault",
-                                                    className: "text-base font-medium cursor-pointer",
+                                                    className: "text-base font-medium text-[#4a2c7f] cursor-pointer",
                                                     children: "Set as Default"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/create-account-drawer.jsx",
@@ -1095,7 +1096,7 @@ function CreateAccountDrawer({ children }) {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                             type: "submit",
-                                            className: "flex-1",
+                                            className: "flex-1 bg-[#4a2c7f] hover:bg-[#3e206a] text-white",
                                             disabled: createAccountLoading,
                                             children: createAccountLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                                 children: [
