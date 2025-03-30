@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
+=======
+  "/(main)/dashboard/page": "app/(main)/dashboard/page.js",
+>>>>>>> 5d55d029978f11d8f9566aadf229a0600be02f6c
   "/page": "app/page.js"
 }
