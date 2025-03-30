@@ -759,126 +759,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard
 ;
 __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$transaction$2d$overview$2e$jsx__$28$client__reference$2f$proxy$29$__);
 }}),
-"[project]/app/(main)/dashboard/page.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
+"[project]/app/(main)/dashboard/page.jsx [app-rsc] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname } = __turbopack_context__;
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-__turbopack_context__.s({
-    "default": (()=>DashboardPage)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$actions$2f$dashboard$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/actions/dashboard.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$actions$2f$budget$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/actions/budget.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$account$2d$card$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/(main)/dashboard/_components/account-card.jsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$create$2d$account$2d$drawer$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/create-account-drawer.jsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$budget$2d$progress$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/(main)/dashboard/_components/budget-progress.jsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/card.jsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/plus.js [app-rsc] (ecmascript) <export default as Plus>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$transaction$2d$overview$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/(main)/dashboard/_components/transaction-overview.jsx [app-rsc] (ecmascript)");
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-async function DashboardPage() {
-    const [accounts, transactions] = await Promise.all([
-        (0, __TURBOPACK__imported__module__$5b$project$5d2f$actions$2f$dashboard$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getUserAccounts"])(),
-        (0, __TURBOPACK__imported__module__$5b$project$5d2f$actions$2f$dashboard$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getDashboardData"])()
-    ]);
-    const defaultAccount = accounts?.find((account)=>account.isDefault);
-    // Get budget for default account
-    let budgetData = null;
-    if (defaultAccount) {
-        budgetData = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$actions$2f$budget$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getCurrentBudget"])(defaultAccount.id);
-    }
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "space-y-8",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$budget$2d$progress$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BudgetProgress"], {
-                initialBudget: budgetData?.budget,
-                currentExpenses: budgetData?.currentExpenses || 0
-            }, void 0, false, {
-                fileName: "[project]/app/(main)/dashboard/page.jsx",
-                lineNumber: 29,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$transaction$2d$overview$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["DashboardOverview"], {
-                accounts: accounts,
-                transactions: transactions || []
-            }, void 0, false, {
-                fileName: "[project]/app/(main)/dashboard/page.jsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid gap-4 md:grid-cols-2 lg:grid-cols-3",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$create$2d$account$2d$drawer$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CreateAccountDrawer"], {
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "hover:shadow-md transition-shadow cursor-pointer border-dashed",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
-                                className: "flex flex-col items-center justify-center text-muted-foreground h-full pt-5",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
-                                        className: "h-10 w-10 mb-2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/dashboard/page.jsx",
-                                        lineNumber: 45,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm font-medium",
-                                        children: "Add New Account"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/dashboard/page.jsx",
-                                        lineNumber: 46,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/(main)/dashboard/page.jsx",
-                                lineNumber: 44,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/app/(main)/dashboard/page.jsx",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/dashboard/page.jsx",
-                        lineNumber: 42,
-                        columnNumber: 9
-                    }, this),
-                    accounts.length > 0 && accounts?.map((account)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$dashboard$2f$_components$2f$account$2d$card$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccountCard"], {
-                            account: account
-                        }, account.id, false, {
-                            fileName: "[project]/app/(main)/dashboard/page.jsx",
-                            lineNumber: 52,
-                            columnNumber: 13
-                        }, this))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/(main)/dashboard/page.jsx",
-                lineNumber: 41,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/app/(main)/dashboard/page.jsx",
-        lineNumber: 27,
-        columnNumber: 5
-    }, this);
-}
-}}),
+const e = new Error(`Could not parse module '[project]/app/(main)/dashboard/page.jsx'
+
+Expected 'from', got 'export'`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 "[project]/app/(main)/dashboard/layout.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 

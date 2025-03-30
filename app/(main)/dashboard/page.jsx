@@ -8,6 +8,7 @@ import { BudgetProgress } from "./_components/budget-progress";
 import { Card, CardContent } from "@/components/ui/card";
 import { Plus } from "lucide-react";
 import { DashboardOverview } from "./_components/transaction-overview";
+import Calendar from "./Calendar";
 
 export default async function DashboardPage() {
   const [accounts, transactions] = await Promise.all([
@@ -26,6 +27,8 @@ export default async function DashboardPage() {
   return (
     <div className="space-y-8">
       {/* Budget Progress */}
+      <h1> Copy karne wale log</h1>
+      <Calendar/>
       <BudgetProgress
         initialBudget={budgetData?.budget}
         currentExpenses={budgetData?.currentExpenses || 0}
