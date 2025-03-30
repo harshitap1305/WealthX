@@ -77,14 +77,14 @@ export function CreateAccountDrawer({ children }) {
       <DrawerTrigger asChild>{children}</DrawerTrigger>
       <DrawerContent>
         <DrawerHeader>
-          <DrawerTitle>Create New Account</DrawerTitle>
+          <DrawerTitle className="text-[#4a2c7f]">Create New Account</DrawerTitle>
         </DrawerHeader>
         <div className="px-4 pb-4">
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div className="space-y-2">
               <label
                 htmlFor="name"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="text-sm font-medium text-[#3e206a]"
               >
                 Account Name
               </label>
@@ -101,7 +101,7 @@ export function CreateAccountDrawer({ children }) {
             <div className="space-y-2">
               <label
                 htmlFor="type"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="text-sm font-medium text-[#3e206a]"
               >
                 Account Type
               </label>
@@ -125,7 +125,7 @@ export function CreateAccountDrawer({ children }) {
             <div className="space-y-2">
               <label
                 htmlFor="balance"
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="text-sm font-medium text-[#3e206a]"
               >
                 Initial Balance
               </label>
@@ -145,7 +145,7 @@ export function CreateAccountDrawer({ children }) {
               <div className="space-y-0.5">
                 <label
                   htmlFor="isDefault"
-                  className="text-base font-medium cursor-pointer"
+                  className="text-base font-medium text-[#4a2c7f] cursor-pointer"
                 >
                   Set as Default
                 </label>
@@ -168,7 +168,7 @@ export function CreateAccountDrawer({ children }) {
               </DrawerClose>
               <Button
                 type="submit"
-                className="flex-1"
+                className="flex-1 bg-[#4a2c7f] hover:bg-[#3e206a] text-white"
                 disabled={createAccountLoading}
               >
                 {createAccountLoading ? (

@@ -31,7 +31,7 @@ const LandingPage = () => {
       </section>
 
       {/* Features Section */}
-      {/* Features Section */}
+     
 <section id="features" className="py-20 bg-[#0d021f]">
   <div className="container mx-auto px-4">
     <h2 className="text-3xl font-bold text-center text-[#e5dbff] mb-12">

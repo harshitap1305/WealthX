@@ -31,11 +31,10 @@ export const statsData = [
 export const featuresData = [
   {
     icon: <BarChart3 className="h-8 w-8 text-[#e5dbff]" />,
-    title: <span style={{ color: "#e5dbff" }}>Advanced Analytics</span>,
+    title: <span style={{ color: "#e5dbff" }}>Graphical Analytical Section</span>,
     description: (
       <span style={{ color: "#e5dbff" }}>
-        Get detailed insights into your spending patterns with AI-powered
-        analytics
+        Charts & Graphs: Analyze expenses and savings visually with interactive charts.
       </span>
     ),
   },
@@ -50,10 +49,11 @@ export const featuresData = [
   },
   {
     icon: <PieChart className="h-8 w-8 text-[#e5dbff]" />,
-    title: <span style={{ color: "#e5dbff" }}>Budget Planning</span>,
+    title: <span style={{ color: "#e5dbff" }}> Calendar</span>,
     description: (
       <span style={{ color: "#e5dbff" }}>
-        Create and manage budgets with intelligent recommendations
+         View expenses and insights by clicking on a
+         date/month.
       </span>
     ),
   },
@@ -68,19 +68,20 @@ export const featuresData = [
   },
   {
     icon: <Globe className="h-8 w-8 text-[#e5dbff]" />,
-    title: <span style={{ color: "#e5dbff" }}>Multi-Currency</span>,
+    title: <span style={{ color: "#e5dbff" }}> Transaction categorization</span>,
     description: (
       <span style={{ color: "#e5dbff" }}>
-        Support for multiple currencies with real-time conversion
+        Users can manually categorize transactions.
       </span>
     ),
   },
   {
     icon: <Zap className="h-8 w-8 text-[#e5dbff]" />,
-    title: <span style={{ color: "#e5dbff" }}>Automated Insights</span>,
+    title: <span style={{ color: "#e5dbff" }}> AI-Powered Query System</span>,
     description: (
       <span style={{ color: "#e5dbff" }}>
-        Get automated financial insights and recommendations
+        AI model answers queries like “Can I afford a
+        ₹50 purchase?”
       </span>
     ),
   },
