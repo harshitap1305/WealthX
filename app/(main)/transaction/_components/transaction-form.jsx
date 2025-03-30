@@ -31,6 +31,27 @@ import { createTransaction, updateTransaction } from "@/actions/transaction";
 import { transactionSchema } from "@/app/lib/schema";
 import { ReceiptScanner } from "./recipt-scanner";
 
+
+export default async function AddTransactionPage({ searchParams }) {
+  const accounts = await getUserAccounts();
+
+  // Ensure searchParams is awaited before accessing its properties
+  const editId = await searchParams?.edit;
+
+  let initialData = null;
+  if (editId) {
+    initialData = await getTransactionById(editId); // Assuming this function fetches transaction data
+  }
+
+  return (
+    <AddTransactionForm
+      accounts={accounts}
+      categories={await getCategories()}
+      editMode={!!editId}
+      initialData={initialData}
+    />
+  );
+}
 export function AddTransactionForm({
   accounts,
   categories,
